@@ -1,0 +1,25 @@
+.form-input{
+    display: flex;
+}
+
+.form-input .left-section{
+    width: 90%;
+}
+
+.form-input input{
+    height: 50px;
+    font-size: 80%;
+}
+
+.form-input .right-section{
+    width: 10%;
+    background-color: rgb(67, 134, 235);
+    border-radius: 2px;
+    display: flex;
+    cursor: pointer;
+}
+
+.icon-send{
+    margin: auto;
+    color: #ffffff;
+}

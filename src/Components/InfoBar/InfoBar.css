@@ -1,0 +1,61 @@
+.section-infobar {
+    background-color: rgb(67, 134, 235);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.card-infobar {
+    padding: 1em;
+    display: flex;
+    color: #ffffff;
+}
+
+.sub-section-left-infobar {
+    display: flex;
+    align-items: center;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.online-img {
+    width: 3%;
+    margin-right: 1%;
+}
+
+.sub-section-right-infobar {
+    display: flex;
+    align-items: center;
+}
+
+.icon-close{
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.icon-close:hover{
+    transition: 0.3s;
+    opacity: 0.6;
+}
+
+.body-modal-infobar{
+    color: black;
+    text-align: center;
+    font-size: 150%;
+}
+
+.icon-infobar{
+    background-color: #ffffff;
+    margin-left: 20%;
+    padding: 5px;
+    font-size: 100%;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icon-infobar:hover{
+   opacity: 0.6;
+   transition: 0.5s;
+}

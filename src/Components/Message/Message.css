@@ -1,0 +1,66 @@
+.body-message {
+    padding: 2em;
+    height: 50vh;
+}
+
+.message-section-center {
+    display: flex;
+    font-size: 80%;
+    justify-content: center;
+}
+
+.message-box-section-admin p {
+    background-color: rgb(219, 77, 77);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2% auto;
+    font-size: 90%;
+    color: #ffffff;
+}
+
+.message-section-start {
+    display: flex;
+    font-size: 80%;
+}
+
+.message-box-section-light p {
+    background-color: rgb(194, 190, 190);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5% auto;
+    font-size: 90%;
+}
+
+.message-section-end {
+    display: flex;
+    font-size: 80%;
+    justify-content: flex-end;
+    margin: 1% auto;
+}
+
+.message-box-section-blue p {
+    background-color: rgb(67, 134, 235);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5% auto;
+    font-size: 90%;
+}
+
+#sent-text {
+    margin: 10px 0px 0px 5px;
+}
+
+#sent-text-me {
+    margin: 10px 5px 0px 0px;
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    .body-message {
+        padding: 2em;
+        height: 30vh;
+        font-size: 80%;
+    }
+}

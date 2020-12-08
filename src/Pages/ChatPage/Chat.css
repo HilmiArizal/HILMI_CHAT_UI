@@ -1,0 +1,26 @@
+.section-chat{
+    background-color: rgb(49, 49, 49);
+    height: 100vh;
+    display: flex;
+}
+
+.card-chat{
+    width: 50%;
+    margin: auto;
+    background-color: #f5f3f3;
+    /* padding: 2em; */
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px rgb(104, 104, 250);
+}
+
+.title-chat{
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    .card-chat{
+        width: 80%;
+    }
+}

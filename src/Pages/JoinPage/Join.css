@@ -1,0 +1,68 @@
+.section-join{
+    background-color: rgb(49, 49, 49);
+    height: 100vh;
+    display: flex;
+}
+
+.card-join{
+    width: 30%;
+    margin: auto;
+    background-color: #f5f3f3;
+    padding: 2em;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px rgb(104, 104, 250);
+}
+
+form .title-join{
+    text-align: center;
+}
+
+form .title-join-1{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+form .title-join-2{
+    font-size: 80%;
+}
+
+form .input-join label{
+    display: flex;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+form .input-join input{
+    font-size: 70%;
+    margin-bottom: 3%;
+}
+
+form .warning-room{
+    font-size: 60%;
+    color: rgb(207, 50, 50);
+}
+
+form #btn-join{
+    display: flex;
+    margin: auto;
+    background-color: rgb(104, 104, 250);
+    border: 1px solid rgb(104, 104, 250);;
+}
+
+.room-icon{
+    float: right;
+    margin-top: -35px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#link-join{
+    text-decoration: none;
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    .card-join{
+        width: 80%;
+    }
+}
